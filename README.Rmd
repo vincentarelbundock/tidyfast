@@ -26,7 +26,7 @@ set.seed(843)
 <!-- badges: end -->
 
 
-The goal of `tidyfast` is to provide fast and efficient alternatives to some `tidyr` (and a few `dplyr`) functions using `data.table` under the hood. Each have the prefix of `dt_` to allow for autocomplete in IDEs such as RStudio. These should compliment some of the current functionality in `dtplyr` (but notably does not use the `lazy_dt()` framework of `dtplyr`). This package imports `data.table` and `Rcpp` (no other dependencies).
+The goal of `tidyfast` is to provide fast and efficient alternatives to some `tidyr` (and a few `dplyr`) functions using `data.table` under the hood. Each have the prefix of `dt_` to allow for autocomplete in IDEs such as RStudio. These should complement some of the current functionality in `dtplyr` (but notably does not use the `lazy_dt()` framework of `dtplyr`). This package imports `data.table` and `Rcpp` (no other dependencies).
 
 These are, in essence, translations from a more `tidyverse` grammar to `data.table`. Most functions herein are in places where, in my opinion, the `data.table` syntax is not obvious or clear. As such, these functions can translate a simple function call into the fast, efficient, and concise syntax of `data.table`.
 
@@ -546,7 +546,7 @@ Please note that the `tidyfast` project is released with a [Contributor Code of 
 
 We want to thank our wonderful contributors:
 
-- [markfairbanks](https://github.com/markfairbanks) for PR #6 providing initial the pivoting functions. Note the [`tidytable`](https://github.com/markfairbanks/tidytable) package that compliments some of `tidyfast`s functionality.
+- [markfairbanks](https://github.com/markfairbanks) for PR #6 providing initial the pivoting functions. Note the [`tidytable`](https://github.com/markfairbanks/tidytable) package that complements some of `tidyfast`s functionality.
 
 
 **Complementary Packages:**
